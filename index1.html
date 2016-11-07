@@ -1,0 +1,73 @@
+<html>
+ <head>
+ <link rel="stylesheet" href="style.css" type="text/css"/>
+ <script type="text/javascript" src="angular.min.js"></script>
+ <script type="text/javascript" src="app.js"></script>
+ 
+ </head>
+<body>
+<div class="all-content">
+
+    <div class="header">
+        <p>Upload files</p> 
+        <button>X</button>
+    </div>
+    <div class="lineer"></div>
+    <div class="content">
+        <p>Having problems?Try the <a href="#">basic uploader</a></p>
+       
+            <div class="uploadframe">
+		    <div class="uploader">
+                <div id="progressbar">
+                    <div></div>
+                </div>
+		    </div>
+			<div class="addfile">
+                <button>+ Add more files</button>
+			</div>
+                
+            </div>
+	  
+
+    <div class="mainBar">
+        <div class="options">Options</div>
+        <div class="description">Description</div>
+        <div class="advanced">Advanced</div>
+    </div>
+    
+	<div class="opt">
+        <div class="category">
+            <label>Category</label>
+            <select name=“category”>
+            <option value=“None”>None</option>
+            </select>
+        </div>
+        <div class="email">
+            <label>Notify by email</label>
+            <select name=“notifiy”>
+            <option value=“None”>Nobody</option>
+            </select>
+        </div>
+        <div class="privacy">
+            <label>Privacy</label>
+            <select name=“privacy”>
+            <option value=“None”>Everybody on project</option>
+            </select>
+        </div>
+    
+
+        <div class="para">
+        <strong>Nobody</strong> will be notified of this file upload
+		</div>
+		<div class="check">
+        <input type="checkbox" /> <label for="checkbox">Send me a copy</label>
+		</div>
+	</div>
+    </div>
+    <div class="footer">
+        <button class="button1">Upload these files</button><label>or</label>
+        <button class="button2">Cancel</button>
+    </div>
+</div>
+</body>
+</html>
